@@ -9,8 +9,8 @@ body{
 div{
     position: relative;
     background: #c10101;
-    width: 80%;
-    height: 85%;
+    width: 300px;
+    height: 800px;
     border-radius: 20px;
 }
 img{

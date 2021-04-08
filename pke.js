@@ -1,5 +1,5 @@
 const block = document.getElementById("galleryblock");
-const numberOfPokemons = 100;
+const numberOfPokemons = 10;
 
 function fetchingPokemons(){
 	for (var i = 1; i <= numberOfPokemons; i++) {

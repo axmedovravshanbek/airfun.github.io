@@ -58,6 +58,17 @@ div.border {
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.3) -15px 5px 20px, inset #ffffffcc -1px 1px 10px;
 }
+#camera {
+    position: absolute;
+    display: block;
+    left: 163px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background: rgb(0,68,82);
+    background: radial-gradient(circle, rgba(0,68,82,1) 0%, rgba(3,3,102,1) 13%, rgba(2,0,36,1) 33%);
+}
 
 div.screen {
     position: absolute;

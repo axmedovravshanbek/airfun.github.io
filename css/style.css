@@ -164,7 +164,8 @@ a img{
     button{
         display: inline-block;
         width: 382px;
-        /*width: 282px;*/
+        border: none;
+                /*width: 282px;*/
         height: 46px;
         font-size: 16px;
         line-height: 19px;

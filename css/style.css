@@ -1,0 +1,202 @@
+*{
+    color: #222124;
+    font-family: 'Inter', sans-serif;
+}
+button{
+    display: none;
+}
+button:focus{
+    outline: none;
+}
+h2{
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 63px;
+}
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+h4{
+    margin: 30px 0 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.4;
+    padding-right: 10px;
+}
+.mybuttons{
+    background: none;
+    border: 2px solid #ffffff27;
+    height: 60px;
+    color: white;
+}
+.mydiv{
+    display: flex;
+    height: 230px;
+    overflow: hidden;
+    border: 1px solid rgba(151, 151, 151, 0.181927);
+    border-radius: 12px;
+}
+.texts{
+    position: relative;
+    width: 100%;
+}
+.price{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 30px;
+}
+.plus{
+    color: white;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    background: #F1B301;
+}
+.mydiv img{
+    width: 180px;
+    height: 180px;
+    margin: 30px 40px 20px 30px;
+}
+.flexer{
+    display: flex;
+    justify-content: center;
+}
+.purplebg{
+    overflow: visible;
+    background: #800A7A;;
+    padding-bottom: 70px;
+}
+#phone{
+    position: absolute;
+    width: 854px;
+    bottom: -81px;
+    right: -147px;
+}
+#yellowline{
+    position: absolute;
+    width: 796px;
+    bottom: 112px;
+    right: -352px;
+}
+.relativepos{
+    /*overflow-y: visible;*/
+    /*overflow-x: hidden;*/
+    position: relative;
+}
+.custompadding{
+    padding: 75px 0 63px 0;
+}
+.apps{
+    /*display: block;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 22px;
+    color: #ffffff;
+    /*margin-bottom: 50px;*/
+    padding: 20px;
+}
+a img{
+    width: 55px;
+    padding-right: 20px;
+}
+.apps{
+    border: 2px solid #ffffff27;
+}
+@media (max-width: 576px) {
+    .mydiv{
+        margin: 0 10px;
+        /*width: 282px;*/
+        /*width: 372px;*/
+        height: 163px;
+    }
+    .mydiv img{
+        width: 127px;
+        height: 127px;
+        margin: 21px 21px 12px 18px;
+    }
+    h2{
+        font-size: 36px;
+        line-height: 44px;
+        width: 380px;
+        text-align: center;
+    }
+    h3{
+        font-size: 18px;
+        /*line-height: 22px;*/
+    }
+    h4{
+        margin: 20px 0 8px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    h5{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .plus{
+        font-size: 17px;
+        width: 35px;
+        height: 35px;
+    }
+    .price{
+        padding-right: 21px;
+        bottom: 21px;
+    }
+    button{
+        display: inline-block;
+        width: 382px;
+        /*width: 282px;*/
+        height: 46px;
+        font-size: 16px;
+        line-height: 19px;
+        background: #F1F1F1;
+        border-radius: 27px;
+    }
+    .purplebg{
+        margin-top: 50px;
+    }
+    .custompadding{
+        padding: 275px 0 1px 0;
+    }
+    .miniheight{
+        transition: 0.5s;
+        height: 585px;
+        overflow: hidden;
+    }
+    #phone{
+        width: 515px;
+        bottom: 360px;
+        right: 1px;
+    }
+    #yellowline{
+        width: 338px;
+        bottom: 491px;
+        right: 35px;
+    }
+    .apps{
+        margin: 0 8px;
+        width: 350px;
+        font-size: 18px;
+        padding: 16px;
+    }
+
+}

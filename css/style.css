@@ -1,0 +1,20 @@
+.gradient {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #FF6B75 50%, #FF6B75 100%);
+}
+a, a:hover{
+    color: #212529;
+    text-decoration: none;
+}
+.counter {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: #FEEE0C;
+}
+.mycard{
+    box-shadow: 7px 7px 7px #999999;
+    border-radius: 10px;
+    margin-right: 9px;
+}

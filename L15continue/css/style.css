@@ -6,6 +6,10 @@ body{
     color: #000000;
     font-family: 'Inter', sans-serif;
 }
+.btn-secondary{
+    background: #F2F2F2;
+    border: none;
+}
 input{
     font-weight: 500;
     font-size: 24px;

@@ -38,10 +38,10 @@ body{
     top: 152px;
 }
 #myCarousel .owl-next{
-    right: -20px;
+    right: 0;
 }
 #myCarousel .owl-prev{
-    right: 50px;
+    right: 60px;
 }
 #myCarousel2 .owl-next{
     right: -26px;

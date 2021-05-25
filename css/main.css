@@ -109,11 +109,35 @@ a, a:hover{
 button, button:focus{
     outline: none;
 }
-.girlbg{
-    height: 550px;
-    background-image: url("../images/backgroung.png");
+.bg{
     background-size: cover;
+    height: 550px;
     background-position: center center;
+}
+.girl{
+    background-image: url("../images/backgroung.png");
+
+}
+.cross{
+    background-image: url("../images/bgcross.png");
+}
+.outfits{
+    height: 500px;
+}
+.outfit1{
+    background: url("../images/outfit1.png");
+    background-size: cover;
+}
+.outfit2{
+    background: url("../images/outfit2.png");
+    background-size: cover;
+}
+.outfit3{
+    background: url("../images/outfit3.png");
+    background-size: cover;
+}
+.boy{
+    background-image: url("../images/boybg.png");
 }
 .desktop .navbar-nav a{
     color: #999999;
@@ -141,7 +165,7 @@ h2{
     .desktop{
         display: none;
     }
-    .girlbg{
+    .bg{
         height: 227px;
     }
     h1{
